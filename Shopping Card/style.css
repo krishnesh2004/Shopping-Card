@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: aliceblue;
+  background-image: url(shopping\ logo.jpg);
+  background-size: cover; /* Image ko cover karne ke liye */
+  background-position: center; /* Center me position karne ke liye */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 400px;
+  padding: 20px;
+  background-image: url(shopping\ logo\ 2.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  color: #620062;
+  margin-bottom: 20px;
+}
+#product-list {
+  margin-bottom: 30px;
+}
+.product {
+  background-color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.product button {
+  background-color: #620062;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: background-color 0.3s;
+}
+.product button :hover {
+  background-color: #3700b3;
+}
+#carditem {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#card-total {
+  font-weight: bold;
+  color: #121212;
+  text-align: right;
+}
+#checkout-btn {
+  background-color: #620062;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgorund-color 0.3s;
+}
+#checkout-btn:hover {
+  background-color: #3700b3;
+}
+.hidden {
+  display: none;
+}
